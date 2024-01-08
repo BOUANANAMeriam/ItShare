@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Bonjour", "Salut", "Coucou", "Hello", "Hey", "salam"],
+      "responses": ["Bonjour ! Comment puis-je vous aider ?", "Salut ! En quoi puis-je vous assister ?", "Coucou ! Que puis-je faire pour vous ?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "Bonne journee", "a plus tard", "a bientôt", "bye"],
+      "responses": ["Au revoir ! Passez une excellente journee.", "a plus tard ! Prenez soin de vous.", "a bientôt ! N'hesitez pas a revenir si vous avez besoin d'aide."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Je vous remercie", "C'est utile", "Super, merci", "Merci de m'aider", "thanks", "thank you"],
+      "responses": ["De rien ! Je suis la pour vous aider.", "Toujours a votre service !", "C'est un plaisir de vous assister."],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Desole, je ne comprends pas.", "Pouvez-vous fournir plus d'informations s'il vous plaît ?", "Je ne suis pas sûr de comprendre."],
+      "context": [""]
+    },
+    {
+      "tag": "connaissance",
+      "patterns": ["", "qui etes-vous ?", "c'est qui ?", "je parle avec qui?"],
+      "responses": ["Vous parlez avec ChatBot, un modele de langage developpe. Je suis ici pour repondre a vos questions et vous aider avec vos preoccupations. Que puis-je faire pour vous aujourd'hui ?",
+        "Je suis le ChatBot de service clientele. Je suis un modele de langage developpe. Je suis concu pour comprendre et generer du texte en utilisant des techniques d'intelligence artificielle avancees. Mon objectif est de vous aider en repondant a vos questions et en vous fournissant des informations pertinentes. Comment puis-je vous assister aujourd'hui ?"],
+      "context": [""]
+    },
+    {
+      "tag": "cycle_ingenieur",
+      "patterns": ["cycle ingenieur", "diplôme d'ingenieur", "annee universitaire", "modules", "semestres", "volume horaire"],
+      "responses": ["Le cycle ingenieur est un cursus de formation d'enseignement superieur d'une duree de six semestres accessible selon les conditions prevues au niveau de la norme CL5. Le Cycle Ingenieur est sanctionne par un diplôme d'ingenieur d'etat. L'annee universitaire en cycle Ingenieur est composee de 2 semestres comprenant chacun 16 a 18 semaines d'enseignement et d'evaluation. Les periodes de stage ne sont pas incluses dans ces semaines. L'organisation du cursus sur les six semestres de la formation est definie par l'equipe pedagogique de chacune des filieres du cycle ingenieur en coordination avec les instances pedagogiques de l'etablissement. Chaque semestre comprend 6 a 8 modules avec un volume horaire en presentiel global semestriel minimal de 384 heures."],
+      "context": [""]
+    },
+    {
+      "tag": "acces_filiere",
+      "patterns": ["acces a une filiere du cycle Ingenieur", "conditions d'acces", "candidats", "concours", "pre-requis pedagogiques"],
+      "responses": ["L'acces en premiere annee d'une filiere du cycle Ingenieur est ouvert aux candidats ayant valide les deux annees du cycle preparatoire integre, aux candidats ayant reussi le concours national commun d'admission dans les etablissements de formation d'ingenieurs et etablissements assimiles (dans la limite des places offertes par l'etablissement) et aux candidats ayant reussi le concours d'acces ouvert aux etudiants Bac+2 ou Bac+3 selon les pre-requis pedagogiques et les modalites precises dans le descriptif de la filiere demandee et dans la limite des places disponibles. L'acces a une filiere de ce cycle peut egalement se faire en deuxieme annee par voie de concours pour les candidats ayant au moins un diplôme BAC+3 (Licence ou tout autre diplôme reconnu equivalent) et les pre-requis equivalents a la premiere annee de la filiere et selectionnees selon les criteres d'admission precises dans le descriptif de la filiere demandee et dans la limite des places disponibles."],
+      "context": [""]
+    },
+    {
+      "tag": "inscription",
+      "patterns": ["inscription a une filiere du cycle Ingenieur", "filiere ingenieur", "modules", "options"],
+      "responses": ["L'inscription a une filiere du cycle Ingenieur est annuelle. Une filiere ingenieur est un cursus de formation comprenant un ensemble coherent de modules pris dans un ou plusieurs champs disciplinaires d'ingenierie et de disciplines connexes et ayant pour objectif de faire acquerir a l'etudiant des connaissances, des aptitudes et des competences specifiques. Une filiere ingenieur peut comporter plusieurs options. L'intitule reflete les objectifs et le contenu de la filiere."],
+      "context": [""]
+    },
+    {
+      "tag": "blocs_modules",
+      "patterns": ["blocs de modules", "modules scientifiques", "modules de Management", "modules de langues", "PFE"],
+      "responses": ["Les cinq premiers semestres de formation d'ingenieur sont composes de trois blocs de modules : 1. Le bloc des modules scientifiques et techniques de base et de specialisation, compose de modules refletant les caracteres scientifique et technique generaux de la formation d'ingenieur ainsi que des modules specifiques a une specialisation dans le cadre de la filiere. Ce bloc represente 60 a 80% du volume horaire global des cinq premiers semestres de la filiere. 2. Le bloc de modules de Management compose essentiellement de modules de management de projets, de management d'entreprise, etc. Il represente 10 a 20% du volume horaire global des cinq premiers semestres de la filiere. 3. Le bloc de modules de langues, de Communication et des TIC representant 10 a 20% du volume horaire global des cinq premiers semestres de la filiere. Le sixieme semestre est consacre au Projet de Fin d'etudes (PFE). Les objectifs et les contenus des modules composant une filiere sont coherents avec les objectifs de la filiere."],
+      "context": [""]
+    },
+    {
+      "tag": "passerelles",
+      "patterns": ["passerelles entre filieres", "reorientation", "pre-requis", "equipe pedagogique"],
+      "responses": ["Toute filiere du cycle Ingenieur prevoit des passerelles avec d'autres filieres du meme etablissement ou des filieres d'autres etablissements, permettant a un eleve ingenieur de se reorienter tout en conservant ses acquis. Ces passerelles sont soumises aux criteres et pre-requis exiges par l'equipe pedagogique de chaque filiere choisie. Elles offrent aux etudiants la possibilite d'explorer differentes options et de poursuivre leur parcours selon leurs interets et objectifs professionnels."],
+      "context": [""]
+    },
+    {
+      "tag": "filiere_administration",
+      "patterns": ["rattachement administratif d'une filiere", "etablissement d'enseignement superieur", "missions de l'etablissement"],
+      "responses": ["Une filiere du cycle Ingenieur est rattachee administrativement a un etablissement d'enseignement superieur. Elle est conforme aux missions de cet etablissement. Les modules de la filiere peuvent etre assures par un ou plusieurs departements, voire plusieurs etablissements d'enseignement superieur, ainsi que par des intervenants du milieu socioeconomique. L'organisation et la coordination des enseignements sont assurees en collaboration avec ces differentes entites pour garantir une formation de qualite."],
+      "context": [""]
+    },
+    {
+      "tag": "coordonnateur_pedagogique",
+      "patterns": ["coordonnateur pedagogique d'une filiere", "animateur de l'equipe pedagogique", "suivi des enseignements"],
+      "responses": ["Le coordonnateur pedagogique d'une filiere est un professeur de l'enseignement superieur ou, a defaut, un professeur habilite ou un professeur assistant. Il appartient a l'etablissement d'attache de la filiere et est designe par le chef d'etablissement, sur proposition des coordonnateurs des modules de la filiere et apres avis du chef de departement dont il releve. Le coordonnateur pedagogique de la filiere anime l'equipe pedagogique de la filiere et assure le suivi du deroulement des enseignements, des projets et des stages, de l'evaluation et des deliberations en coordination avec les departements dont relevent les modules de la filiere, sous la responsabilite du chef de l'etablissement."],
+      "context": [""]
+    },
+    {
+      "tag": "demande_accreditation",
+      "patterns": ["demande d'accreditation d'une filiere", "descriptif de la filiere", "modules de la filiere", "partenaires academiques", "objectifs de la filiere"],
+      "responses": ["La demande d'accreditation d'une filiere du cycle Ingenieur est initiee par l'etablissement d'enseignement superieur. Elle comprend un descriptif detaille de la filiere, des modules qui la composent, des partenaires academiques et des entreprises impliquees dans sa mise en œuvre. La demande d'accreditation expose les objectifs de la filiere, les competences visees, les modalites d'enseignement et d'evaluation, ainsi que les debouches professionnels des diplômes de la filiere. La demande est examinee par une commission d'evaluation et d'accreditation qui evalue la conformite de la filiere aux criteres d'accreditation et emet un avis motive."],
+      "context": [""]
+    },
+
+{
+  "tag": "information_filiere",
+  "patterns": [
+    "Les cinq premiers semestres de formation d'ingenieur sont composes de trois blocs de modules",
+    "Quels sont les blocs de modules pendant les cinq premiers semestres d'une filiere d'ingenieur ?",
+    "Expliquez la structure des cinq premiers semestres d'une filiere d'ingenieur."
+  ],
+  "responses": [
+    "Les cinq premiers semestres de formation d'ingenieur sont composes de trois blocs de modules :\n\n1. Le bloc des modules scientifiques et techniques de base et de specialisation, compose, d'une part, de modules refletant les caracteres scientifique et technique generaux de la formation d'ingenieur et, d'autre part, de modules specifiques a une specialisation dans le cadre de la filiere. Ce bloc represente 60 a 80% du volume horaire global des cinq premiers semestres de la filiere.\n\n2. Le bloc de modules de Management compose essentiellement de modules de management de projets, de management d'entreprise, etc. Il represente 10 a 20% du volume horaire global des cinq premiers semestres de la filiere.\n\n3. Le bloc de modules de langues, de Communication et des TIC representant 10 a 20% du volume horaire global des cinq premiers semestres de la filiere."
+  ],
+  "context": [""]
+},
+{
+  "tag": "passerelles_filiere",
+  "patterns": [
+    "Est-ce qu'il y a des passerelles entre les filieres d'ingenieur ?",
+    "Est-il possible de se reorienter d'une filiere d'ingenieur vers une autre filiere ?",
+    "Quelles sont les possibilites de reorientation entre les filieres d'ingenieur ?"
+  ],
+  "responses": [
+    "Toute filiere du cycle Ingenieur prevoit des passerelles avec d'autres filieres du meme etablissement ou des filieres d'autres etablissements permettant a un eleve ingenieur, tout en conservant ses acquis, de se reorienter au sein d'un meme etablissement ou d'un etablissement vers un autre conformement aux criteres et pre-requis exiges par l'equipe pedagogique de chaque filiere choisie."
+  ],
+  "context": [""]
+},
+{
+  "tag": "rattachement_filiere",
+  "patterns": [
+    "a quel etablissement une filiere d'ingenieur est-elle rattachee ?",
+    "Quel est le lien entre une filiere d'ingenieur et un etablissement d'enseignement superieur ?",
+    "Comment est rattachee administrativement une filiere d'ingenieur ?"
+  ],
+  "responses": [
+    "Une filiere est rattachee administrativement a un etablissement d'enseignement superieur et elle est conforme aux missions de cet etablissement. Ses modules peuvent etre assures par un ou plusieurs departements, voire plusieurs etablissements d'enseignement superieur ou encore par des intervenants du milieu socioeconomique."
+  ],
+  "context": [""]
+},
+{
+  "tag": "coordonnateur_filiere",
+  "patterns": [
+    "Qui est le coordonnateur pedagogique d'une filiere d'ingenieur ?",
+    "Quel est le rôle du coordonnateur pedagogique d'une filiere ?",
+    "Expliquez le rôle du coordonnateur pedagogique d'une filiere d'ingenieur."
+  ],
+  "responses": [
+    "Le coordonnateur pedagogique d'une filiere est un professeur de l'enseignement superieur ou, a defaut, un professeur habilite ou, a defaut, un professeur assistant, qui appartient a l'etablissement d'attache de la filiere et qui est designe par le chef d'etablissement, sur proposition des coordonnateurs des modules de la filiere et apres avis du chef de Departement dont il releve. Le coordonnateur pedagogique de la filiere, intervenant dans les enseignements de la filiere, anime l'equipe pedagogique de la filiere et assure le suivi du deroulement des enseignements, des projets et des stages, de l'evaluation et des deliberations en coordination avec les departements dont relevent les modules de la filiere et sous la responsabilite du chef de l’etablissement."
+  ],
+  "context": [""]
+},
+{
+  "tag": "accreditation_filiere",
+  "patterns": [
+    "Comment une filiere d'ingenieur obtient-elle son accreditation ?",
+    "Quelles sont les etapes pour obtenir l'accreditation d'une filiere d'ingenieur ?",
+    "Expliquez le processus d'accreditation d'une filiere d'ingenieur."
+  ],
+  "responses": [
+    "La demande d'accreditation d'une filiere est presentee conformement au descriptif etabli a cet effet. Ce descriptif precise notamment : l’intitule de la filiere, les intitules des options eventuelles de la filiere, les objectifs de la formation, les competences a acquerir, les conditions d'acces, la liste ordonnee des modules en indiquant leur nature (scientifiques et techniques de base et de specialisation, management, langues et communication et TIC), les noms du coordonnateur pedagogique de la filiere, des coordonnateurs des modules et des intervenants dans la formation, la description du stage ou projet de fin d'etude, la liste des partenaires, les moyens logistiques et materiels disponibles, les retombees de la formation, les debouches de la formation, l'association du secteur socioprofessionnel dans l'elaboration et l'encadrement de la formation, les descriptifs des modules de la filiere avec leur syllabus et les competences a acquerir, un CV succinct du coordonnateur de la filiere, les engagements des intervenants externes a l’etablissement, les avis motives et visas des : - coordonnateur pedagogique de la filiere, - chef du departement dont releve le coordonnateur de la filiere, - chefs des departements impliques dans la filiere, - president du conseil de l’etablissement d’attache de la filiere, - president du conseil de l’universite. La demande d’accreditation devra etre proposee par le conseil de l’etablissement d’attache de la filiere, et approuvee par le conseil de l’universite qui la transmet a l’autorite gouvernementale en charge de l’enseignement superieur pour accreditation. L'accreditation d'une filiere est accordee pour une duree de cinq annees renouvelable apres evaluation par l'autorite gouvernementale chargee de l'enseignement superieur pour les etablissements universitaires, ou conjointement par l'autorite gouvernementale chargee de l'enseignement superieur et l'autorite gouvernementale de tutelle pour les etablissements ne relevant pas des universites."
+  ],
+  "context": [""]
+},
+{
+  "tag": "module",
+  "patterns": [
+    "Qu'est-ce qu'un module dans le systeme de formation d'ingenieur ?",
+    "Pouvez-vous expliquer ce qu'est un module dans le contexte de la formation d'ingenieur ?",
+    "Comment est defini un module dans le systeme de formation d'ingenieur ?"
+  ],
+  "responses": [
+    "Un module est l'unite fondamentale du systeme de formation d'ingenieur. Il comprend un a trois elements de module qui peuvent etre enseignes dans une ou plusieurs langues. Un element de module peut etre soit une matiere enseignee sous forme de cours theoriques accompagnes ou non de travaux diriges et/ou de travaux pratiques, soit une activite pratique consistant en travaux sur le terrain ou projet. Les differents elements d'un module constituent une unite coherente. Une activite pratique peut constituer une partie d'un module, un module entier ou plusieurs modules. Une partie d’un module peut etre enseignee a distance et/ou par alternance dans la limite fixee par l’etablissement. L'intitule d'un module reflete son contenu et ses objectifs. Un module d'enseignement s'etale sur un semestre et correspond a un volume horaire minimum de 48 heures d'enseignement et d'evaluation. Le volume horaire d'un module peut etre decline en credits selon les modalites definies par l'etablissement."
+  ],
+  "context": [""]
+},
+{
+  "tag": "pfe",
+  "patterns": [
+    "Qu'est-ce que le PFE dans le contexte de la formation d'ingenieur ?",
+    "Pouvez-vous expliquer ce que signifie PFE pour les etudiants en ingenierie ?",
+    "Quelle est la signification de PFE dans le domaine de l'ingenierie ?"
+  ],
+  "responses": [
+    "Le PFE, ou Projet de Fin d'etudes, est une etape obligatoire dans la formation d'ingenieur. Il s'agit d'un projet specifique a la filiere et il doit etre realise de preference en milieu socioeconomique. Le dernier semestre du cycle ingenieur est consacre au Projet de Fin d'etudes. Le PFE permet a l'etudiant d'appliquer les connaissances acquises tout au long de sa formation et de developper des competences pratiques en travaillant sur un projet concret. Il peut etre realise dans une entreprise privee, publique ou semi-publique, dans une administration, dans des collectivites locales, etc. Le PFE est generalement suivi d'une soutenance où l'etudiant presente son projet devant un jury."
+  ],
+  "context": [""]
+}
+]
+
+}

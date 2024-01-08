@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531287334865",
+    "project_id": "projetchat-ecae2",
+    "storage_bucket": "projetchat-ecae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531287334865:android:3cd1c2fd7e41e29975caf0",
+        "android_client_info": {
+          "package_name": "com.example.mobileproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC0w1xihC94GtAkfzEYmm3syPE0VcWBZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
